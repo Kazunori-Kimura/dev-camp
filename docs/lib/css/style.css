@@ -32,7 +32,6 @@ header {
   background-size: cover;
   background-position: center center;
   backgrond-repeat: no-repeat;
-  background-attachment: fixed;
   background-color: #464646;
 }
 
@@ -40,8 +39,20 @@ header>div.container {
   color: #fff;
 }
 
-section {
-  margin-top: 90px;
+.eye-catch {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 480px;
+  background-color: #464646;
+  color: #fff;
+}
+
+.onsen {
+  background-image: url("../images/onsen.jpg");
+  background-size: cover;
+  background-position: center center;
+  backgrond-repeat: no-repeat;
 }
 
 /* Customize container */
@@ -50,7 +61,7 @@ section {
     max-width: 730px;
   }
   header {
-    height: 400px;
+    height: 480px;
     padding-top: 60px;
   }
 }
