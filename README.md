@@ -104,3 +104,13 @@ PE-BANKに所属するエンジニアが楽しめるだけでなく、
 
 * [三重県鳥羽市 ホテルマリテーム 海幸園](http://www.tabiplan.co.jp/27_mie/MIE-05_maritime.html)
 * [滋賀県琵琶湖 白浜荘](http://www.tabiplan.co.jp/25_shiga/SIG-01_sirahama.htm)
+
+<br><br>
+
+## 他社事例
+
+* [nanapiのメンバーで開発合宿に行ってきた！ in 日光](http://blog.nanapi.co.jp/tech/2014/02/26/development-of-training-camp-nikko/)
+* [Wantedly エンジニアチームは湯河原温泉で開発合宿を行いました！](http://engineer.wantedly.com/2016/01/24/development-camp.html)
+* [開発合宿で新サービス開発なるか！？CodeCamp開発合宿レポート](http://blog.codecamp.jp/development_camp/)
+
+<br><br>
