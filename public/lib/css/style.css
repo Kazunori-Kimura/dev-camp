@@ -1,44 +1,55 @@
-html, body {
-  margin: 0;
-  padding: 0;
+/* test.css */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+  background-color: #f5f5f5;
+
+  padding-top: 30px;
+  text-align: center;
 }
 
-body {
+.eyecatch {
   /* 設定したい画像 */
   background-image: url(../images/back.jpg);
   /* 画像を上下左右中央寄せ */
   background-position: center center;
   /* タイル状には並べないように指定 */
   background-repeat: no-repeat;
-  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
-  background-attachment: fixed;
+  /* 背景画像を固定するかどうか */
+  background-attachment: scroll; /*fixed*/
   /* 表示するディスプレイの大きさに基づいて、背景画像を縦横比を固定しながら調整 */
   background-size: cover;
   /* 画像が読み込まれる前の背景色の指定 */
   background-color: #464646;
 
-  display: flex;
+  height: 640px;
+  padding-top: 160px;
+  text-align: center;
+  color: white;
 }
 
-#box {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-align: center;
+.eyecatch h1 {
+  font-size: 4em;
 }
 
-a.button, a.button:hover, a.button:visited {
-  margin: 5px;
-  padding: 5px;
-  display:inline-flex;
-  width: 200px;
-  height: 45px;
-  border: 2px solid white;
-  color: white;
-  text-decoration: none;
+.thumb {
   text-align: center;
+}
+.thumb img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
