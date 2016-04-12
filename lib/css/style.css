@@ -1,55 +1,77 @@
-/* test.css */
-
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 300px;
+    /* Margin bottom by footer height */
+    margin-bottom: 300px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 300px;
-  background-color: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+    background-color: #816C61;
+    color: #E7DFC6;
 
-  padding-top: 30px;
-  text-align: center;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .eyecatch {
-  /* 設定したい画像 */
-  background-image: url(../images/back.jpg);
-  /* 画像を上下左右中央寄せ */
-  background-position: center center;
-  /* タイル状には並べないように指定 */
-  background-repeat: no-repeat;
-  /* 背景画像を固定するかどうか */
-  background-attachment: scroll; /*fixed*/
-  /* 表示するディスプレイの大きさに基づいて、背景画像を縦横比を固定しながら調整 */
-  background-size: cover;
-  /* 画像が読み込まれる前の背景色の指定 */
-  background-color: #464646;
+    /* 設定したい画像 */
+    background-image: url(../images/back.jpg);
+    /* 画像を上下左右中央寄せ */
+    background-position: center center;
+    /* タイル状には並べないように指定 */
+    background-repeat: no-repeat;
+    /* 背景画像を固定するかどうか */
+    background-attachment: scroll; /*fixed*/
+    /* 表示するディスプレイの大きさに基づいて、背景画像を縦横比を固定しながら調整 */
+    background-size: cover;
+    /* 画像が読み込まれる前の背景色の指定 */
+    background-color: #464646;
 
-  height: 640px;
-  padding-top: 160px;
-  text-align: center;
-  color: white;
+    height: 640px;
+    padding-top: 200px;
+    text-align: center;
+    color: #E7DFC6;
 }
 
 .eyecatch h1 {
-  font-size: 4em;
+    font-size: 4em;
 }
 
 .thumb {
-  text-align: center;
+    text-align: center;
 }
 .thumb img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-container {
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    padding: 0 10vw;
+    background-color: #2364AA;
+    color: #eaeaea;
+}
+
+.flex-item {
+    width: 300px;
+    height: 200px;
+    margin: 40px 0;
+    text-align: center;
 }
