@@ -18,6 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "Honoka": "~3.3.6"
+    "Honoka": "~3.3.7"
   }
 }

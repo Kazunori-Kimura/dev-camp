@@ -12,8 +12,8 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 300px;
-    background-color: #403F4C;
-    color: #f3f3f3;
+    background-color: #816C61;
+    color: #E7DFC6;
 
     padding-top: 30px;
     text-align: center;
@@ -21,7 +21,7 @@ body {
 
 .eyecatch {
     /* 設定したい画像 */
-    background-image: url(../images/2017-back.jpg);
+    background-image: url(../images/back.jpg);
     /* 画像を上下左右中央寄せ */
     background-position: center center;
     /* タイル状には並べないように指定 */
@@ -33,28 +33,45 @@ body {
     /* 画像が読み込まれる前の背景色の指定 */
     background-color: #464646;
 
-    height: 100vh;
-    padding: 30px;
-    color: #f1f1f1;
-
-    position: relative;
-}
-
-.arrow {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-  font-size: 2em;
-  color: #f1f1f1;
-  text-shadow: 1px 1px 3px #555;
+    height: 640px;
+    padding-top: 200px;
+    text-align: center;
+    color: #E7DFC6;
 }
 
 .eyecatch h1 {
     font-size: 4em;
 }
 
-.content {
-  margin: 60px auto;
+.thumb {
+    text-align: center;
+}
+.thumb img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-container {
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    padding: 0 10vw;
+    background-color: #2364AA;
+    color: #eaeaea;
+}
+
+.flex-item {
+    width: 300px;
+    height: 200px;
+    margin: 40px 0;
+    text-align: center;
 }
