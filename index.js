@@ -8,7 +8,7 @@ const glob = require("glob");
 // Honokaのdistフォルダ
 const honoka_dist = "bower_components/Honoka/dist";
 // 公開フォルダ
-const public_dir = "public";
+const public_dir = "docs";
 
 /**
  * globをPromiseで包む
@@ -45,7 +45,7 @@ function existsAsync(file_path) {
  */
 (function() {
   co(function*(){
-    // Honokaのdist 以下を public/lib 以下にコピー
+    // Honokaのdist 以下を docs/lib 以下にコピー
     const files = yield globAsync("**/*", { cwd: honoka_dist });
     // コピー先
     const distPath = path.resolve(__dirname, public_dir, "lib");

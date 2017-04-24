@@ -1,12 +1,12 @@
 {
   "name": "dev-camp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "development camp for pro engineers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "download": "bower install",
-    "start": "hs ./public"
+    "start": "hs ./docs"
   },
   "keywords": [],
   "author": "Kazunori Kimura <kazunori.kimura.js@gmail.com>",
